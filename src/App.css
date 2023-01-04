@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  height: 70px;
+  background: rgb(255, 244, 245);
+  /* border: 1px solid red; */
+}
+.navbar img{
+  height: 60px;
+  padding-left: 1rem;
+}
+.main-container{
+  height: 87vh;
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+}
+.container{
+  width: 50%;
+  /* border: 2px solid red; */
+  background: linear-gradient(0deg,pink,rgb(255, 244, 245));
+  padding: 4% 1% 0 4%;
+}
+.container #demoBtn{
+  padding: 0.8rem 1rem;
+  color: #ffff;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(94, 94, 250);
+  border-radius: 6px;
+}
+.bg-container{
+  width: 50%;
+  background: linear-gradient(0deg,pink,rgb(255, 244, 245));
+}
+.bg-container img{
+  height: 100%;
+  width: 100%;
+}
+/* .RegistrationForm styling */
+.registration-form-container{
+  background-image: url('https://voosh.in/static/media/book_now_bg.e9f9294653918137cd78.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 5rem;
+}
+.registration-form-container > div{
+  /* width: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+}
+.registration-form-container .book-a-demo{
+  width: 40%;
+}
+.registration-form-container .registration-form{
+  width: 60%;
+}
+.registration-form-container .registration-form .form-division{
+  width: 70%;
+  background-color: #ffff;
+  border-radius: 15px;
+  padding: 1.5rem 2rem;
+}
+.registration-form .form-division label{
+  color: black;
+}
+.registration-form .form-division span{
+  color: red;
+}
+.registration-form .form-division input{
+  width: 100%;
+  height: 2rem;
+  background-color: lightgray;
+  outline: none;
+  border: none;
+  padding: 1rem;
+}
+#boookDemoSubmit{
+  width: 100%;
+  padding: 0.7rem;
+  color: #ffff;
+  background-color: rgb(94, 94, 250);
+  cursor: pointer;
+  border: none;
+}
